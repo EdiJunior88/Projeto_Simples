@@ -1,0 +1,57 @@
+/* Isso é um arquivo CSS que fará a personalização da sua página */
+
+/* Colocando imagem de fundo no corpo da página */
+body{
+    background-image: url("https://i.ibb.co/NTqFz2R/image.png");
+    background-size: cover; /* Redmensiona a imagem para cobrir toda a página */
+    background-position: center; /* centraliza a imagem */
+    background-attachment: fixed; /* Aqui fixa a imagem no fundo ao rolar a página */
+}
+
+/* Centralizar a imagem do cabeçalho da página */
+#imagem_cabecalho{
+    display: block; /* imagem fixada na página */
+    margin-top: -8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Centralizar na página textos e imagens */
+#centralizar_tudo{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Centralizar as bolinhas da lista no texto */
+ul {
+    text-align: center;
+    list-style: inside;
+}
+
+/* Centralizar tabela na página */
+table{
+    border-collapse: collapse; /* junta os espaços das linhas da tabela */
+    width: 400px;
+    border: black 1px solid;
+    margin: auto;
+    text-align: justify;
+}
+
+tr, td{
+    border: black 1px solid;
+    width: 46px;
+    padding: 10px;
+}
+
+#titulo_H1{
+    color: red;
+}
+
+#titulo_H2{
+    color: #00FFFF;
+}
+
+#texto_azul{
+    color: blue;
+}
